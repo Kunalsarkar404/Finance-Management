@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600);
+
+body {
+  font-family: "Lato";
+  overflow-y: scroll;
+  font-family: sans-serif;
+  background-color: #dde0e7;
+}
+
+/* -------------
+Sidebar
+----------------*/
+.sidebar {
+  margin: 0;
+  top: 0;
+  padding: 0;
+  position: fixed;
+  height: 100%;
+  display: block;
+  width: 250px;
+  background-color: #062343;
+}
+
+.sidebar .display {
+  background-color: #09f;
+  display: block;
+  padding: 0.75em 1em;
+}
+
+.sidebar-nav {
+  position: absolute;
+  /* display: block; */
+  width: 250px;
+  background-color: #062343;
+  height: 100%;
+  font-weight: 400;
+  font-size: 1.2em;
+  padding-bottom: 6em;
+  /* z-index: 9; */
+  overflow: hidden;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em;
+  font-size: 0.9em;
+}
+
+.bar-icon {
+  margin-right: 0.5em;
+  padding-right: 0.5em;
+}
+
+.app {
+  display: flexbox;
+}
+
+.sidebar-nav a:hover {
+  background-color: #f5fdff18;
+  transition: all 0.6s ease;
+}

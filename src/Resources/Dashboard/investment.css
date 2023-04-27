@@ -1,0 +1,72 @@
+.dashboard {
+    position: relative;
+    justify-content: center;
+    left: 16em;
+    margin: 22px;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  align-items: center;
+  /* transition: all 0.3s ease; */
+}
+
+.container .button {
+  /* Adjust width and height as necessary to fit the buttons */
+  width: 150px;
+  height: 150px;
+  margin: 12px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.button:hover {
+  /* cursor: pointer; */
+  background-color: #ddd;
+  transform: scale(1.1);
+}
+
+.dash-icon {
+  font-size: 45px;
+  /* margin-bottom: 3px; */
+  display: block;
+  padding: 20px;
+}
+
+.button p {
+  margin: 2px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.value {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.value .add-icon {
+  display: block;
+  font-size: 0.3em;
+}
+
+.total {
+  display: block;
+  margin: 2px;
+  text-align: center;
+  top: 2px;
+  font-size: 20px;
+  font-weight: bold;
+}
