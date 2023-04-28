@@ -15,6 +15,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faBitcoin } from "@fortawesome/free-brands-svg-icons";
 import Stocks from '../Investment/Stocks';
+import Mutual from "../Investment/Mutual";
 
 function BankAccount({ name, value }) {
   return (
@@ -35,7 +36,7 @@ export default function Dashboard() {
       symbol: faChartLine,
       component: Stocks,
     },
-    { id: 2, label: "Mutual Funds", value: 56, symbol: faFileInvoiceDollar },
+    { id: 2, label: "Mutual Funds", value: 56, symbol: faFileInvoiceDollar, component: Mutual },
     { id: 3, label: "FD", value: 20, symbol: faMoneyCheck },
     { id: 4, label: "EPF", value: null, symbol: faPiggyBank },
     { id: 5, label: "Forex", value: null, symbol: faCoins },

@@ -1,0 +1,30 @@
+.mutual-funds-container {
+    position: absolute;
+    justify-content: center;
+    left: 16em;
+    margin: 22px;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  .mutual-funds-container .value{
+      font-size: 20px;
+      font-weight: lighter;
+  }
+  
+  .mutual-funds-info {
+    display: flex;
+    position: relative;
+    padding: 8px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px -6px rgb(79, 78, 78);
+    margin-bottom: 6px;
+  }
+  
+  .mutual-funds-value{
+      margin-left: 18px;
+  }
