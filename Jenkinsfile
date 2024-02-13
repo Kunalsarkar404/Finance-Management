@@ -12,7 +12,7 @@ pipeline {
         }
         stage ("Checkout from SCM") {
             steps {
-                git branch 'master', credentialsId: 'github', url: 'https://github.com/Kunalsarkar404/Finance-Management'
+                git branch: 'master', credentialsId: 'github', url: 'https://github.com/Kunalsarkar404/Finance-Management'
             }
         }
         stage ("Build Application") {
